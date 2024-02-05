@@ -1,0 +1,16 @@
+{
+  "name": "geekcase",
+  "version": "0.1.0",
+  "description": "An immersive portfolio that showcases my journey as a software engineer through the lens of my geek passions, from programming to anime. Dive into a world where technology meets creativity, and join me on a journey that blends the boundaries of science, art, culture, and the digital frontier. いらっしゃいませ。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": ["nextjs", "portfolio", "engineering", "tech", "art", "culture"],
+  "author": "Zero <priveral@uni.pe>",
+  "license": "MIT"
+}
