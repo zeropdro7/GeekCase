@@ -10,7 +10,24 @@
     "start": "next start",
     "lint": "next lint"
   },
-  "keywords": ["nextjs", "portfolio", "engineering", "tech", "art", "culture"],
+  "keywords": [
+    "nextjs",
+    "portfolio",
+    "engineering",
+    "tech",
+    "art",
+    "culture"
+  ],
   "author": "Zero <priveral@uni.pe>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "next": "^14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "@types/react": "^18.2.54",
+    "typescript": "^5.3.3"
+  }
 }
