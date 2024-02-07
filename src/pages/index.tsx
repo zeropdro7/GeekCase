@@ -1,9 +1,11 @@
 import React from 'react';
+import Link from 'next/link'
 
 const Home: React.FC = () => {
   return (
     <div>
-      <h1>Welcome to My Next.js Project</h1>
+      <h1>Home</h1>
+      <Link href="/about">About</Link>
     </div>
   );
 };
