@@ -1,14 +1,15 @@
 {
   "name": "geekcase",
   "version": "0.1.0",
-  "description": "An immersive portfolio that showcases my journey as a software engineer through the lens of my geek passions, from programming to anime. Dive into a world where technology meets creativity, and join me on a journey that blends the boundaries of science, art, culture, and the digital frontier. いらっしゃいませ。",
-  "main": "index.js",
+  "description": "An immersive portfolio that showcases my journey as a software engineer",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier": "prettier --write --ignore-unknown .",
+    "prettier:check": "prettier --check --ignore-unknown ."
   },
   "keywords": [
     "nextjs",
@@ -20,14 +21,29 @@
   ],
   "author": "Zero <priveral@uni.pe>",
   "license": "MIT",
+  "engines": {
+    "node": ">=18.17.0"
+  },
   "dependencies": {
-    "next": "^14.1.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "@types/node": "20.5.7",
+    "next": "^14.0.2",
+    "postcss": "8.4.31",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.2.2"
   },
   "devDependencies": {
-    "@types/node": "^20.11.16",
-    "@types/react": "^18.2.54",
-    "typescript": "^5.3.3"
+    "@testing-library/react": "^14.2.1",
+    "@types/jest": "^29.5.12",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.14",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.52.0",
+    "eslint-config-next": "^14.0.0",
+    "eslint-config-prettier": "9.0.0",
+    "next-router-mock": "^0.9.12",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "0.5.4"
   }
 }
