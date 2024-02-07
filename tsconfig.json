@@ -11,6 +11,7 @@
     "**/*.spec.ts"
   ],
   "compilerOptions": {
+    "types": ["jest", "@testing-library/jest-dom"],
     "target": "es6",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
