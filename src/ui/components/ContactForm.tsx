@@ -11,7 +11,11 @@ const ContactForm: React.FC = () => {
   }
 
   return (
-    <form onSubmit={handleSubmit} data-testid="contact-form" className='space-y-6'>
+    <form
+      onSubmit={handleSubmit}
+      data-testid='contact-form'
+      className='space-y-6'
+    >
       <div>
         <label
           htmlFor='name'

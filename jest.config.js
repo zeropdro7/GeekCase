@@ -15,14 +15,12 @@ const customJestConfig = {
     '\\.(css|less|scss|sass)$': 'identity-obj-proxy'
   },
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
-  testMatch: [
-    '**/?(*.)+(spec|test).[jt]s?(x)',
-  ],
+  testMatch: ['**/?(*.)+(spec|test).[jt]s?(x)'],
   testEnvironment: 'jest-environment-jsdom',
   transform: {
     '^.+\\.(ts|tsx)$': ['babel-jest', { presets: ['next/babel'] }]
   },
-  moduleDirectories: ['node_modules', '<rootDir>/'],
+  moduleDirectories: ['node_modules', '<rootDir>/']
 }
 
 module.exports = createJestConfig(customJestConfig)
