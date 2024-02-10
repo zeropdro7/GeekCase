@@ -19,6 +19,7 @@
 .idea/
 *.swp
 *.swo
+*.swc
 
 # Register
 npm-debug.log*
